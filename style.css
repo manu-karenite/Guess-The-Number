@@ -70,6 +70,11 @@
     justify-content: center;
     align-items: center;
   }
+  
+  .right
+  {
+    font-size:20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -298,7 +303,7 @@ h1 {
 }
 
 .right {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .leftPart {
