@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+@media screen and (max-width: 767px) {
+  /*for small screen*/
+  .scol-1 {
+    width: 8.33;
+    float: left;
+  }
+
+  .scol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .scol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .scol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .scol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .scol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .scol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .scol-8 {
+    width: 66.66%;
+    float: left;
+  }
+
+  .scol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .scol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .scol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .scol-12 {
+    width: 100%;
+    float: left;
+  }
+  .between {
+    text-align: center;
+  }
+
+  .btnClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*for medium devices*/
+  .mcol-1 {
+    width: 8.33%;
+    float: left;
+  }
+
+  .mcol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .mcol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .mcol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .mcol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .mcol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .mcol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .mcol-8 {
+    width: 66.67%;
+    float: left;
+  }
+
+  .mcol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .mcol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .mcol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .mcol-12 {
+    width: 100%;
+    float: left;
+  }
+  .between {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*for big devices*/
+  .lcol-1 {
+    width: 8.33;
+    float: left;
+  }
+
+  .lcol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .lcol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .lcol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .lcol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .lcol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .lcol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .lcol-8 {
+    width: 66.66%;
+    float: left;
+  }
+
+  .lcol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .lcol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .lcol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .lcol-12 {
+    width: 100%;
+    float: left;
+  }
+  .between {
+    float: right;
+  }
+}
+
+/*usual css styles*/
+
+* {
+  box-sizing: border-box;
+  word-wrap: normal;
+}
+
+body {
+  background-color: #222;
+
+  color: #eee;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  word-wrap: normal;
+  font-size: 45px;
+}
+
+.between {
+  padding: 25px;
+  margin: 20px;
+  word-wrap: normal;
+  font-size: 30px;
+}
+.again {
+  float: left;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+  padding: 25px;
+  margin: 20px;
+  margin-left: 35px;
+}
+
+.number {
+  margin-bottom: 50px;
+  /*border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 10px;*/
+  display: inline;
+  background-color: #eee;
+  color: #222;
+  padding: 50px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  font-size: 150px;
+}
+
+.question {
+  text-align: center;
+  font-size: 50px;
+  border-style: solid;
+  border-width: 15px;
+
+  display: inline-block;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  height: 10rem;
+  width: 20rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.left {
+  padding: 25px;
+}
+
+.right {
+  font-size: 2.5rem;
+}
+
+.leftPart {
+  margin-top: 100px;
+}
+.rightPart {
+  margin-top: 100px;
+}

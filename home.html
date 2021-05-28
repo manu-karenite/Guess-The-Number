@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <div class="lcol-12 mcol-12 scol-12">
+        <div class="lcol-12 scol-12 mcol-12"><h1>Guess My Number!</h1></div>
+        <div class="lcol-6 scol-12 mcol-6 btnClass">
+          <button class="btn again">Try Again!</button>
+        </div>
+        <div class="lcol-6 scol-12 mcol-6">
+          <p class="between">(Between 1 and 20)</p>
+        </div>
+      </div>
+      <div class="question lcol-12 scol-12 mcol-12">
+        <div class="number">?</div>
+      </div>
+    </header>
+    <!--Button and Center Part-->
+
+    <main>
+      <div class="scol-12 mcol-12 lcol-6 leftPart">
+        <center>
+          <section class="left">
+            <!--these two need to be in dif div-->
+            <div class="inputBox scol-12 mcol-12 lcol-12">
+              <input type="number" class="guess" />
+            </div>
+
+            <div class="ButtonBox scol-12 mcol-12 lcol-12">
+              <button class="btn check">Check!</button>
+            </div>
+          </section>
+        </center>
+      </div>
+
+      <div class="scol-12 mcol-12 lcol-6 rightPart">
+        <center>
+          <section class="right">
+            <!--these are meant to be in three diff lines-->
+
+            <p class="message">Start Guessing...</p>
+            <p class="label-score">💯 Score: <span class="score">10</span></p>
+            <p class="label-highscore">
+              🥇 Highscore: <span class="highscore">0</span>
+            </p>
+          </section>
+        </center>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
