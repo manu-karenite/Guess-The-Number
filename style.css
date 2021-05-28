@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 767px) {
   /*for small screen*/
+
   .scol-1 {
     width: 8.33;
     float: left;
@@ -70,12 +71,27 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .right
-  {
-    font-size:20px;
+  p.label-score {
+    font-size: 20px;
   }
-}
+  p.label-highscore {
+    font-size: 20px;
+  }
+  p.message {
+    font-size: 20px;
+  }
+  .ButtonBox {
+    margin-top: 10px;
+  }
+  h1
+  {
+    line-height: 70px;
+  }
+  .between{
+    line-height: 70px;
+  }
+  }
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /*for medium devices*/
