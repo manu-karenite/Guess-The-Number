@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #4d4dff;
+  height: auto;
+}
+
+.parentTitle {
+  position: relative;
+}
+
+.title {
+  width: 750px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+  margin-top: 25px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  font-size: 40px;
+  font-size: 50px;
+}
+fieldset {
+  display: inline-block;
+
+  width: auto;
+  border-style: double;
+  border-width: 10px;
+}
+
+#name {
+  height: 50px;
+  width: 500px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  padding: 25px;
+}
+#play {
+  /* for ok button*/
+
+  height: auto;
+  width: auto;
+  padding: 25px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  background-color: #1aff1a;
+  color: white;
+  border: solid #1aff1a;
+  border-radius: 10px;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.rules {
+  height: 500px;
+  width: auto;
+  font-family: 'Space Mono', monospace;
+  color: aliceblue;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.individualRule {
+  float: left;
+  word-wrap: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.parentRules {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #4d4dff;
+}
+
+.btn {
+  height: 80px;
+  width: 250px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  margin: 20px;
+  margin-top: 0px;
+  border-style: none;
+  border-width: 10px;
+  font-size: 40px;
+  padding: 20px;
+}
+
+#continue:hover {
+  background-color: rgb(54, 219, 62);
+}
+
+#fail:hover {
+  background-color: crimson;
+}
+.info {
+  background-color: #eee;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
+#introduction {
+  font-family: 'Secular One', sans-serif;
+}
+#realName {
+  font-family: 'Secular One', sans-serif;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+.contact {
+  padding: 20px;
+  margin: 25px;
+}
+#linkedIn {
+  float: left;
+
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Courier Prime', monospace;
+}
+#gitHub {
+  float: left;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Courier Prime', monospace;
+}
+
+#email {
+  float: left;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.info1 {
+  background-color: #eee;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+
+  margin: 0 auto;
+  width: 300px;
+  border-top-style: solid;
+  border-top-color: #4d4dff;
+  border-top-width: 10px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.footNote {
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 767px) {
+  /*for small screen*/
+  .scol-1 {
+    width: 8.33;
+    float: left;
+  }
+
+  .scol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .scol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .scol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .scol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .scol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .scol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .scol-8 {
+    width: 66.66%;
+    float: left;
+  }
+
+  .scol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .scol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .scol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .scol-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*for medium devices*/
+  .mcol-1 {
+    width: 8.33%;
+    float: left;
+  }
+
+  .mcol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .mcol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .mcol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .mcol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .mcol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .mcol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .mcol-8 {
+    width: 66.67%;
+    float: left;
+  }
+
+  .mcol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .mcol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .mcol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .mcol-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*for big devices*/
+  .lcol-1 {
+    width: 8.33;
+    float: left;
+  }
+
+  .lcol-2 {
+    width: 16.66%;
+    float: left;
+  }
+
+  .lcol-3 {
+    width: 25%;
+    float: left;
+  }
+
+  .lcol-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .lcol-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .lcol-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .lcol-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .lcol-8 {
+    width: 66.66%;
+    float: left;
+  }
+
+  .lcol-9 {
+    width: 75%;
+    float: left;
+  }
+
+  .lcol-10 {
+    width: 83.33%;
+    float: left;
+  }
+
+  .lcol-11 {
+    width: 91.66%;
+    float: left;
+  }
+
+  .lcol-12 {
+    width: 100%;
+    float: left;
+  }
+}
+li {
+  vertical-align: center;
+  text-align: center;
+}
